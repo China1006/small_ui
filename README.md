@@ -4,5 +4,5 @@ This is a small ui.
 Use npm to install.
 
 ```bash
-npm i -D naive-ui
+npm i -D small-ui
 ```
