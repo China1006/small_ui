@@ -1,5 +1,5 @@
 import {RouteRecordRaw} from 'vue-router'
-import Avatar from '../../components/Avatar'
+import {SAvatar} from '../../components/Avatar'
 import layout from '../../layout'
 const componentRouter: RouteRecordRaw = {
     path: '/components',
@@ -9,7 +9,7 @@ const componentRouter: RouteRecordRaw = {
     children: [
         {
             path: 'avatar',
-            component: Avatar
+            component: SAvatar
         }
     ]
 }
